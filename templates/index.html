@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SubDomain Taken Over</title>
+    <style>
+        /* Full-screen background GIF */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url('https://media1.tenor.com/m/FcA59Dz2qf0AAAAd/watch-dogs2-dedsec.gif') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        /* Typewriter effect with simple neon green color */
+        .typewriter h1, .typewriter .contact-info {
+            overflow: hidden;
+            border-right: .15em solid #39ff14; /* Neon green caret */
+            white-space: nowrap;
+            margin: 0 auto;
+            animation: typing 3s steps(30, end), blink-caret .75s step-end infinite;
+            color: #39ff14; /* Neon green text */
+        }
+
+        /* Typewriter keyframes */
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        /* Caret blink effect */
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: #39ff14; }
+        }
+
+        /* Styling for contact-info */
+        .contact-info {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="typewriter">
+        <h1>This SubDomain has been taken over by FireCompass.</h1>
+    </div>
+    <div class="typewriter contact-info">
+        Contact FireCompass to release it.
+    </div>
+
+    <!-- Hidden code for PoC -->
+    <!-- poc-fc-takenover -->
+</body>
+</html>
